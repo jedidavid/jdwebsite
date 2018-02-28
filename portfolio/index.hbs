@@ -1,0 +1,189 @@
+{{!< default}}
+{{navigation}}
+<main>
+    <!--
+    <section id="bgheader" class="z-depth-1">
+        <div id="particles-js">
+            <canvas class="particles-js-canvas-el"></canvas>
+        </div>
+        <div class="container">
+            <div class="row hero-home">
+                <div class="col">
+                    <h1 class="white-text main-title center-align">Crafting ideas into reality</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+    -->
+    
+    <section id="splash-blue">
+
+        <div id="particles-js">
+
+            
+        </div>
+
+            </div>
+    </section>
+
+            <div class="divider"></div>
+            <section class="container" id="about">
+                <div class="row">
+                    {{!-- <div class="col s12 m12 l4">
+                        <img class="responsive-img materialboxed center-align" src="../assets/images/about1.jpg" alt="" style="padding-top:25px; margin:auto;">
+                    </div> --}}
+                    <div class="col s12 m12 l12">
+                        <h4 class="light center-align ">ABOUT ME</h4>
+                        <p class="flow-text" style="text-align:justify;">I am currently studying Bachelor of Science in Computer Science at Holy Angel University (currently
+                            taking the last semester) which is located in Philippines . I am solution oriented, flexible,
+                            and analytical programmer / developer who thrives in challenging problems and enjoys working
+                            on projects. I would love to help you solve your Web problems. Web Development and Designing
+                            is my specialty. I am well versed in HTML, CSS, Javascript, NodeJS, Bootstrap, Angular, and WordPress.
+                            I can help you turn your mockup design into a fully functional website or I can also help you
+                            design a website the suits your needs.</p>
+                    </div>
+                </div>
+            </section>
+            <div class="divider"></div>
+            <section id="portfolio" class="container">
+                <h4 class="light center-align">PORTFOLIO</h4>
+                <div class="row">
+                    {{#foreach posts}}
+                    <div class="col s12 m6 l6 s6">
+                        {{> post_card}}
+                    </div>
+                    {{/foreach}}
+                </div>
+            </section>
+            <section class="container">
+                {{pagination}}
+            </section>
+            <div class="divider"></div>
+            <section id="skills" class="container skills">
+                <h4 class="light center-align">Skills</h4>
+                <div class="card z-depth-2 web">
+                    <div class="card-content">
+                        <h5 class="light center">Web</h5>
+                        <div class="divider" style="margin-bottom: 25px"></div>
+                        <div class="row text-center">
+                            <div class="col s4 m3">
+                                <img src="../assets/images/html5.png" alt="" class="responsive-img">
+                                <h6>HTML5</h6>
+                            </div>
+                            <div class="col s4 m3">
+                                <img src="../assets/images/css3.png" alt="" class="responsive-img">
+                                <h6>CSS3</h6>
+                            </div>
+                            <div class="col s4 m3">
+                                <img src="../assets/images/javascript.png" alt="" class="responsive-img">
+                                <h6>JAVASCRIPT</h6>
+                            </div>
+                            <div class="col s4 m3">
+                                <img src="../assets/images/wordpress.png" alt="" class="responsive-img">
+                                <h6>WORDPRESS</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="skills" class="container skills" style="margin-top:50px">
+                <div class="card z-depth-2 frameworks">
+                    <div class="card-content">
+                        <h5 class="light center">Frameworks</h5>
+                        <div class="divider" style="margin-bottom: 25px"></div>
+                        <div class="row text-center">
+                            <div class="col s4 m3">
+                                <img src="../assets/images/materializecss.png" alt="" class="responsive-img">
+                                <h6>MATERIALIZECSS</h6>
+                            </div>
+                            <div class="col s4 m3">
+                                <img src="../assets/images/bootstrap.png" alt="" class="responsive-img">
+                                <h6>BOOTSTRAP</h6>
+                            </div>
+                            <div class="col s4 m3">
+                                <img src="../assets/images/angular.svg" alt="" class="responsive-img">
+                                <h6>ANGULAR</h6>
+                            </div>
+                            <div class="col s4 m3">
+                                <img src="../assets/images/nodejs.png" alt="" class="responsive-img">
+                                <h6>NODEJS</h6>
+                            </div>
+                            <div class="col s4 m3">
+                                <img src="../assets/images/express.png" alt="" class="responsive-img">
+                                <h6>EXPRESS</h6>
+                            </div>
+                            <div class="col s4 m3">
+                                <img src="../assets/images/ionic.png" alt="" class="responsive-img">
+                                <h6>IONIC</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="skills" class="container skills" style="margin-top:50px">
+                <div class="card z-depth-2 oopl">
+                    <div class="card-content">
+                        <h5 class="light center">Object Oriented Programming Language</h5>
+                        <div class="divider" style="margin-bottom: 25px"></div>
+                        <div class="row text-center">
+                            <div class="col s4 m3">
+                                <img src="../assets/images/net.svg" alt="" class="responsive-img">
+                                <h6>.NET</h6>
+                            </div>
+                            <div class="col s4 m3">
+                                <img src="../assets/images/java.png" alt="" class="responsive-img">
+                                <h6>JAVA</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="skills" class="container skills" style="margin-top:50px">
+                <div class="card z-depth-2">
+                    <div class="card-content">
+                        <h5 class="light center">Database</h5>
+                        <div class="divider" style="margin-bottom: 25px"></div>
+                        <div class="row text-center">
+                            <div class="col s4 m3">
+                                <img src="../assets/images/mongodb.png" alt="" class="responsive-img">
+                                <h6>MONGODB</h6>
+                            </div>
+                            <div class="col s4 m3">
+                                <img src="../assets/images/mysql.png" alt="" class="responsive-img">
+                                <h6>MYSQL</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="skills" class="container skills" style="margin-top:50px">
+                <div class="card z-depth-2">
+                    <div class="card-content">
+                        <h5 class="light center">Operating System</h5>
+                        <div class="divider" style="margin-bottom: 25px"></div>
+                        <div class="row text-center">
+                            <div class="col s4 m3">
+                                <img src="../assets/images/macos.png" alt="" class="responsive-img">
+                                <h6>MACOS</h6>
+                            </div>
+                            <div class="col s4 m3">
+                                <img src="../assets/images/linux.png" alt="" class="responsive-img">
+                                <h6>LINUX</h6>
+                            </div>
+                            <div class="col s4 m3">
+                                <img src="../assets/images/windows.png" alt="" class="responsive-img">
+                                <h6>WINDOWS</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="divider"></div>
+            <section id="cv" class="container">
+                <h4 class="light center-align">CV</h4>
+            </section>
+            <div class="divider"></div>
+            <section id="contact" class="container">
+                <h4 class="light center-align">Contact</h4>
+            </section>
+</main>
