@@ -1,0 +1,15 @@
+{
+    "name":"jedi-david",
+    "description": "A theme for my portfolio",
+    "version": "0.0.1",
+    "engines": {
+        "ghost": ">=1.2.0"
+    },
+    "author": {
+        "name": "Jedi David",
+        "email": "jeremydb.david@gmail.com"
+    },
+    "config": {
+        "posts_per_page": 3
+    }
+}
