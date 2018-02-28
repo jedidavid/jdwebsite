@@ -7,7 +7,7 @@
   position: relative;
 }
 
-.primary-overlay {
+/* .primary-overlay {
   position: absolute;
   background: rgba(63, 57, 77, 0.7);
   top: 0;
@@ -15,7 +15,7 @@
   width: 100%;
   height: 100%;
   overflow: hidden; 
-}
+} */
 .main-header .showcase {
   padding-top: 110px;
 }
@@ -55,4 +55,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
   
+}
+#about, #portfolio, #skills, #frameworks, #oop, #database, #os {
+  opacity: 0;
 }
