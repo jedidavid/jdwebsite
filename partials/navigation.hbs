@@ -2,21 +2,22 @@
 {{!< default}}
 
 <div class="primary-overlay">
-    <div class="navbar-fixed">
-        <nav class="transparent z-depth-2">
+    <div class="navbar-fixed navmenu">
+        <nav class="white   ">
             <div class="nav-wrapper">
                 <div class="container">
                     <div class="row">
                         <div class="col s12">
-                            <a href="#!" class="brand-logo">JDAVID
+                            <a href="#!" class="brand-logo">
+                                <img src="../../assets/images/logo1.png" alt="" class="img-responsive">
                             </a>
                             <a href="#" data-activates="mobile-nav" class="button-collapse">
-                                <i class="material-icons">menu</i>
+                                <i class="fa fa-bars fa-2x" style="color:#43a047"></i>
                             </a>
                             <ul class="right hide-on-med-and-down" role="menu">
                                 {{#foreach navigation}}
                                 <li class="nav-{{slug}}{{#if current}} nav-current{{/if}}" role="menuitem">
-                                    <a href="{{url absolute=" true "}}" class="waves-effect navlinks">{{label}}</a>
+                                    <a href="{{url absolute=" true "}}" class="waves-effect navlinks grey-text text-darken-2">{{label}}</a>
                                 </li>
                                 {{/foreach}}
                             </ul>

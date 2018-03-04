@@ -1,52 +1,184 @@
 {{!< default}}
- <main>
+<main>
 
     <!-- HEADER NAVIGATION -->
     <header class="main-header">
         {{navigation}}
-        <div class="showcase container">
-            <div class="col s12 m10 offset-m1 center">
-                <h5 class="main-text">Welcome to my site</h5>
+
+        <div class="hero-pos">
+            <div class="hero-text">
+                <span class="hero-inner">
+                Crafting ideas into reality.
+                </span>
             </div>
+  
+        </div>
+        <div id="particles-js">
+            {{!--
+            <div class="showcase container">
+
+                <div class="col s12 m10 offset-m1 center">
+                    <h5 class="main-text">Welcome to my site</h5>
+                </div>
+            </div> --}}
         </div>
     </header>
-    <div class="container">
-        <div class="row">
-            <div class="col s12" style="margin-top:-200px;">
-                <div class="card horizontal white">
-                    <div class="card-image">
-                        <img src="../assets/images/about.png" class="responsive-img" style="height: 80%; width: 80%;">
-                    </div>
-                    <div class="card-stacked">
-                        <div class="card-content">
-                            <h3 class="white-text">Jeremy Dayniel David</h3>
+
+    <section>
+        <div class="container" style="padding-top: 50px;">
+            <div class="row">
+                                <div class="col s12 l4 m4 center">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="../assets/images/about.jpg" alt="" class="img-responsive">
                         </div>
                     </div>
                 </div>
+                {{!-- <div class="col s12 l4 m4 left ">
+                    <h3 class="green-text text-darken-1"><span>About Me</span></h3>
+                    <p>Hello, I am solution oriented, flexible,
+                                and analytical programmer / developer who thrives in challenging problems and enjoys working
+                                on projects. I would love to help you solve your Web problems. Web Development and Designing
+                                is my specialty. I am well versed in HTML, CSS, Javascript, NodeJS, Bootstrap, Angular, and
+                                WordPress. I can help you turn your mockup design into a fully functional website or I can
+                                also help you design a website the suits your needs.&nbsp;
+                    </p>
+                    <div class="left">
+                        <ul class="aboutbtn">
+                                    <li>
+                                        <a href="" class="waves-effect waves-light btn deep-purple">Download CV</a>
+                                    </li>
+                                    <li>
+                                        <a href="#contact" class="waves-effect waves-light btn deep-purple modal-trigger">Contact Me</a>
+                                    </li>
+                        </ul>
+                    </div>
+                </div> --}}
+
+
+                <div class="col s12 l6 m4 offset-l1 left">
+                    <div class="info">
+                        <h3 class="green-text text-darken-1"> <span>Personal Information</span></h3>
+                    {{!-- <ul>
+                        <li><p> Name:&emsp;Jeremy Dayniel David</p></li>
+                        <li>Age:&emsp;19 Years Old</li>
+                    </ul> --}}
+                        <h5>
+                            <span>Name:</span>
+                        Jeremy Dayniel David
+                        </h5>
+                        <h5>
+                            <span>Age:</span>
+                        19 Years Old
+                        </h5>
+                        <h5>
+                            <span>Phone:</span>
+                        +63906 381 0865
+                        </h5>
+                        <h5>
+                            <span>Email:</span>
+                        jeremydb.david@gmail.com
+                        </h5>
+                        <h5>
+                            <span>Address:</span>
+                        Pampanga, Philippines
+                        </h5>
+                    </div>
+                    
+                </div>
             </div>
         </div>
+    </section>
+    
+
+  {{!-- <a id="menu" class="waves-effect waves-light btn btn-floating" onclick="$('.tap-target').tapTarget('open');"><i class="material-icons">menu</i></a>
+
+  <!-- Tap Target Structure -->
+  <div class="tap-target" data-activates="menu">
+    <div class="tap-target-content">
+      <h5>Title</h5>
+      <p>A bunch of text</p>
     </div>
+  </div> --}}
 
     <!-- END HEADER NAVIGATION -->
 
     <!-- ABOUT SECTION -->
-
-    <section id="about" class="scrollspy">
+<div id="about"></div>
+    <section class="scrollspy">
         <div class="container">
             <div class="row">
                 {{!--
                 <div class="col s12 m12 l4">
                     <img class="responsive-img materialboxed center-align" src="../assets/images/about1.jpg" alt="" style="padding-top:25px; margin:auto;">
                 </div> --}}
-                <div class="col s12 m12 l12">
-                    <h4 class="light center-align ">ABOUT ME</h4>
-                    <p class="flow-text" style="text-align:justify;">I am currently studying Bachelor of Science in Computer Science at Holy Angel University (currently taking
-                        the last semester) which is located in Philippines . I am solution oriented, flexible, and analytical
-                        programmer / developer who thrives in challenging problems and enjoys working on projects. I would
-                        love to help you solve your Web problems. Web Development and Designing is my specialty. I am well
-                        versed in HTML, CSS, Javascript, NodeJS, Bootstrap, Angular, and WordPress. I can help you turn your
-                        mockup design into a fully functional website or I can also help you design a website the suits your
-                        needs.</p>
+                <div class="col s12 m12 l12" style="margin-top: -20px;">
+                    <div class="card horizontal white z-depth-1">
+                        <div class="card-content">
+                            <h3 class="green-text text-darken-1 center"><span>About Me</span></h3>
+                            <p style="text-align:center;">Hello, I am solution oriented, flexible,
+                                and analytical programmer / developer who thrives in challenging problems and enjoys working
+                                on projects. I would love to help you solve your Web problems. Web Development and Designing
+                                is my specialty. I am well versed in HTML, CSS, Javascript, NodeJS, Bootstrap, Angular, and
+                                WordPress. I can help you turn your mockup design into a fully functional website or I can
+                                also help you design a website the suits your needs.&nbsp;
+                            </p>
+
+                            <div class="divider grey" style="margin-btm: 10px; margin-top: 25px;">
+                            </div>
+                            <div class="center">
+                                <ul class="aboutbtn">
+                                    <li>
+                                        <a href="" class="waves-effect waves-light btn deep-purple" style="margin-bottom:10px;">Download CV</a>
+                                    </li>
+                                    <li>
+                                        <a href="#contact" class="waves-effect waves-light btn deep-purple modal-trigger" style="margin-bottom:10px;">Contact Me</a>
+                                    </li>
+                                </ul>
+                                <div id="contact" class="modal modal-fixed-footer">
+                                    <div class="modal-content">
+                                        <section id="contact" class="container">
+                                            <h4 class="center-align">
+                                                <i class="fa fa-address-book"></i> Contact</h4>
+                                            <div class="container">
+                                                <div class="row">
+                                                    <div class="col s12">
+                                                        <div class="row">
+                                                            <form class="col s12">
+                                                                <div class="row">
+                                                                    <div class="input-field col s12">
+                                                                        <input id="name" type="text">
+                                                                        <label for="name">Name</label>
+                                                                    </div>
+                                                                    <div class="input-field col s12">
+                                                                        <input id="email" type="email" class="form-input">
+                                                                        <label for="email">Email</label>
+                                                                    </div>
+                                                                    <div class="input-field col s12">
+                                                                        <textarea id="message" class="materialize-textarea"></textarea>
+                                                                        <label for="message">Message</label>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="row">
+                                                                    <div class="col m12">
+                                                                        <p class="center">
+                                                                            <button class="btn deep-purple waves-effect waves-light"
+                                                                                type="button" name="action">Send Message</button>
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                            </form>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </section>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -54,12 +186,10 @@
     <!-- END ABOUT SECTION -->
 
     <!-- PORTFOLIO SECTION -->
-
-    <div class="divider"></div>
     <section id="portfolio" class="scrollspy">
         <div class="container">
-            
-            <h4 class="center-align">PORTFOLIO</h4>
+            <h4 class="center-align">
+                <i class="fa fa-folder-open-o fa-1x" aria-hidden="true"></i> PORTFOLIO</h4>
             <div class="row">
                 {{#foreach posts}}
                 <div class="col s12 m4 l4">
@@ -77,29 +207,28 @@
     <!-- END PORTFOLIO SECTION -->
 
     <!-- SKILLS SECTION -->
-    <div class="divider"></div>
     <section id="skills" class="skills">
         <div class="container">
-            <h4 class="center-align">Skills</h4>
-            <div class="card z-depth-2 web">
+            <h4 class="center-align">
+                <i class="fa fa-wrench fa-1x" aria-hidden="true"></i> Skills</h4>
+            <div class="card z-depth-1 web white">
                 <div class="card-content">
                     <h5 class="light center">Web</h5>
-                    <div class="divider" style="margin-bottom: 25px"></div>
                     <div class="row text-center">
                         <div class="col s4 m3">
-                            <img src="../assets/images/html5.png" alt="" class="responsive-img">
+                            <img src="../assets/images/html5.svg" alt="" class="responsive-img">
                             <h6>HTML5</h6>
                         </div>
                         <div class="col s4 m3">
-                            <img src="../assets/images/css3.png" alt="" class="responsive-img">
+                            <img src="../assets/images/css-3.svg" alt="" class="responsive-img">
                             <h6>CSS3</h6>
                         </div>
                         <div class="col s4 m3">
-                            <img src="../assets/images/javascript.png" alt="" class="responsive-img">
+                            <img src="../assets/images/logo-javascript.svg" alt="" class="responsive-img">
                             <h6>JAVASCRIPT</h6>
                         </div>
                         <div class="col s4 m3">
-                            <img src="../assets/images/wordpress.png" alt="" class="responsive-img">
+                            <img src="../assets/images/wordpress-blue.svg" alt="" class="responsive-img">
                             <h6>WORDPRESS</h6>
                         </div>
                     </div>
@@ -109,35 +238,34 @@
 
     </section>
 
-    <section id="frameworks" class="skills" style="margin-top:50px">
+    <section id="frameworks" class="skills">
         <div class="container">
-            <div class="card z-depth-2 frameworks">
+            <div class="card z-depth-1 frameworks white">
                 <div class="card-content">
                     <h5 class="center">Frameworks</h5>
-                    <div class="divider" style="margin-bottom: 25px"></div>
                     <div class="row text-center">
                         <div class="col s4 m3">
-                            <img src="../assets/images/materializecss.png" alt="" class="responsive-img">
-                            <h6>MATERIALIZECSS</h6>
+                            <img src="../assets/images/materializecss.svg" alt="" class="responsive-img">
+                            <h6>MATERIALIZE</h6>
                         </div>
                         <div class="col s4 m3">
-                            <img src="../assets/images/bootstrap.png" alt="" class="responsive-img">
+                            <img src="../assets/images/bootstrap.svg" alt="" class="responsive-img">
                             <h6>BOOTSTRAP</h6>
                         </div>
                         <div class="col s4 m3">
-                            <img src="../assets/images/angular.svg" alt="" class="responsive-img">
+                            <img src="../assets/images/angular-icon-1.svg" alt="" class="responsive-img">
                             <h6>ANGULAR</h6>
                         </div>
                         <div class="col s4 m3">
-                            <img src="../assets/images/nodejs.png" alt="" class="responsive-img">
+                            <img src="../assets/images/nodejs.svg" alt="" class="responsive-img">
                             <h6>NODEJS</h6>
                         </div>
                         <div class="col s4 m3">
-                            <img src="../assets/images/express.png" alt="" class="responsive-img">
+                            <img src="../assets/images/express1.svg" alt="" class="responsive-img">
                             <h6>EXPRESS</h6>
                         </div>
                         <div class="col s4 m3">
-                            <img src="../assets/images/ionic.png" alt="" class="responsive-img">
+                            <img src="../assets/images/ionic.svg" alt="" class="responsive-img">
                             <h6>IONIC</h6>
                         </div>
                     </div>
@@ -146,19 +274,18 @@
         </div>
 
     </section>
-    <section id="oop" class="skills" style="margin-top:50px">
+    <section id="oop" class="skills">
         <div class="container">
-            <div class="card z-depth-2 oopl">
+            <div class="card z-depth-1 oopl white">
                 <div class="card-content">
                     <h5 class="center">Object Oriented Programming Language</h5>
-                    <div class="divider" style="margin-bottom: 25px"></div>
                     <div class="row text-center">
                         <div class="col s4 m3">
-                            <img src="../assets/images/net.svg" alt="" class="responsive-img">
-                            <h6>.NET</h6>
+                            <img src="" alt="" class="responsive-img">
+                            <h6>C#</h6>
                         </div>
                         <div class="col s4 m3">
-                            <img src="../assets/images/java.png" alt="" class="responsive-img">
+                            <img src="../assets/images/java.svg" alt="" class="responsive-img">
                             <h6>JAVA</h6>
                         </div>
                     </div>
@@ -167,19 +294,18 @@
         </div>
 
     </section>
-    <section id="database" class="skills" style="margin-top:50px">
+    <section id="database" class="skills">
         <div class="container">
-            <div class="card z-depth-2">
+            <div class="card z-depth-1 white">
                 <div class="card-content">
                     <h5 class="center">Database</h5>
-                    <div class="divider" style="margin-bottom: 25px"></div>
                     <div class="row text-center">
                         <div class="col s4 m3">
-                            <img src="../assets/images/mongodb.png" alt="" class="responsive-img">
+                            <img src="../assets/images/mongodb.svg" alt="" class="responsive-img">
                             <h6>MONGODB</h6>
                         </div>
                         <div class="col s4 m3">
-                            <img src="../assets/images/mysql.png" alt="" class="responsive-img">
+                            <img src="../assets/images/mysql.svg" alt="" class="responsive-img">
                             <h6>MYSQL</h6>
                         </div>
                     </div>
@@ -188,23 +314,22 @@
         </div>
 
     </section>
-    <section id="os" class="skills" style="margin-top:50px">
+    <section id="os" class="skills">
         <div class="container">
-            <div class="card z-depth-2">
+            <div class="card z-depth-1 white">
                 <div class="card-content">
                     <h5 class="center">Operating System</h5>
-                    <div class="divider" style="margin-bottom: 25px"></div>
                     <div class="row text-center">
                         <div class="col s4 m3">
-                            <img src="../assets/images/macos.png" alt="" class="responsive-img">
+                            <img src="../assets/images/macos.svg" alt="" class="responsive-img">
                             <h6>MACOS</h6>
                         </div>
                         <div class="col s4 m3">
-                            <img src="../assets/images/linux.png" alt="" class="responsive-img">
+                            <img src="../assets/images/linux-tux.svg" alt="" class="responsive-img">
                             <h6>LINUX</h6>
                         </div>
                         <div class="col s4 m3">
-                            <img src="../assets/images/windows.png" alt="" class="responsive-img">
+                            <img src="../assets/images/microsoft-windows.svg" alt="" class="responsive-img">
                             <h6>WINDOWS</h6>
                         </div>
                     </div>
@@ -214,13 +339,94 @@
 
     </section>
     <!-- END SKILLS SECTION -->
+    <!-- START PRICING SECTION -->
+    {{!-- <section id="pricing">
+        <div class="container" id="price">
+            <h4 class="center-align">
+                <i class="fa fa-money fa-1x" aria-hidden="true"></i> PRICING</h4>
+            <div class="row">
+                <div class="col s12 m4 l4">
+                    <div class="card white">
+                        <div class="card-content green darken-1">
+                            <div class="pricing-top">
+                                <p class="center black-text">
+                                    <sup>&#8369;</sup>
+                                    <em>10,000</em>
+                                </p>
+                                <div id="box" class="center">
+                                    <span class="black-text">Basic</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <ul class="center">
+                                <li>1 Domain</li>
+                                <li>Unlimited Bandwith</li>
+                                <li>Unlimited Sub Domains</li>
+                                <li>Unmetered Storage</li>
+                                <li>99.9% Uptime Guarantee</li>
+                            </ul>
+                        </div>
 
-    <div class="divider"></div>
-    <section id="cv" class="container">
-        <h4 class="center-align">CV</h4>
-    </section>
-    <div class="divider"></div>
-    <section id="contact" class="container">
-        <h4 class="center-align">Contact</h4>
-    </section>
-    </main>
+                    </div>
+                </div>
+                <div class="col s12 m4 l4">
+                    <div class="card white">
+                        <div class="card-content green darken-1">
+                            <div class="pricing-top">
+                                <p class="center black-text">
+                                    <sup>&#8369;</sup>
+                                    <em>10,000</em>
+                                </p>
+                                <div id="box" class="center">
+                                    <span class="black-text">Basic</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <ul class="center">
+                                <li>1 Domain</li>
+                                <li>Unlimited Bandwith</li>
+                                <li>Unlimited Sub Domains</li>
+                                <li>Unmetered Storage</li>
+                                <li>99.9% Uptime Guarantee</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col s12 m4 l4">
+                    <div class="card white">
+                        <div class="card-content green darken-1">
+                            <div class="pricing-top">
+                                <p class="center black-text">
+                                    <sup>&#8369;</sup>
+                                    <em>10,000</em>
+                                </p>
+                                <div id="box" class="center">
+                                    <span class="black-text">Basic</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <ul class="center">
+                                <li>1 Domain</li>
+                                <li>Unlimited Bandwith</li>
+                                <li>Unlimited Sub Domains</li>
+                                <li>Unmetered Storage</li>
+                                <li>99.9% Uptime Guarantee</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section> --}}
+
+    <!-- END PRICING SECTION -->
+    <!-- START CONTACT SECTION -->
+
+
+</main>
